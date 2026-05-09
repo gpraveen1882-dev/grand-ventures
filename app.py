@@ -1083,7 +1083,7 @@ with col2:
     </div>
     """, unsafe_allow_html=True)
 
-    qr_url = "https://grandventures.streamlit.app"
+    qr_url = "https://grand-ventures.streamlit.app"
     qr = qrcode.QRCode(
         version=1,
         error_correction=qrcode.constants.ERROR_CORRECT_H,
@@ -1096,7 +1096,7 @@ with col2:
     buf = BytesIO()
     qr_img.save(buf, format="PNG")
     buf.seek(0)
-    st.image(buf, width=220, caption="grandventures.streamlit.app")
+    st.image(buf, width=220, caption="grand-ventures.streamlit.app")
     st.markdown("""
     <div style="text-align:center;margin-top:16px;">
       <p style="color:rgba(202,220,252,0.5);font-size:12px;">UCLA Anderson EMBA 2026 · Grand Ventures</p>
